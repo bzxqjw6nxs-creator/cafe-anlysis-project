@@ -8,6 +8,9 @@ This project aims to provide insights for cafe owners by identifying sales trend
 1. **Data Cleaning:** Processing raw receipt data using Python (Pandas) and preparing it for export. DONE
 2. **Database:** Designing the database schema and importing cleaned datasets into DBeaver. DONE
 3. **Analysis:** Writing SQL queries to extract insights (revenue trends, ABC-analysis, etc.).
+4. **Future Work**
+* Глубокий анализ профилей постоянных клиентов (Customer Lifetime Value).
+* ABC-анализ товарного ассортимента для оптимизации меню.
 
 ## Key Findings
 
@@ -27,12 +30,18 @@ This project aims to provide insights for cafe owners by identifying sales trend
     * *Рекомендация:* Внедрение системы предзаказов или «быстрых сетов» для критических часов поможет снизить давление на бариста и сократить время ожидания клиентов.
 
 ## Project Visuals
-(Здесь вставь скриншот своей таблицы с паузами)
+
+### 1. Operational Rhythm & Heatmap
+![Heatmap of Service Rhythm](images/pauses_map.png)
+
+### 2. Revenue & Sales Patterns
+![Income & Order Trends](images/income:hour_orders:hour.png)
+![Receipt Depth Analysis](images/receipt_deapth.png)
+
+### 3. Revenue Distribution
+![Income Share](images/income_pie.png)
 
 
-## Future Work
-* Глубокий анализ профилей постоянных клиентов (Customer Lifetime Value).
-* ABC-анализ товарного ассортимента для оптимизации меню.
 ## Tech Stack
 
 * **Python (Pandas):** Data cleaning and transformation.
